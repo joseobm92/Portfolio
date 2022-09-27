@@ -102,6 +102,9 @@ header {
     background-position: center;
 }
 
+.bg-img:hover {
+    border: 3px solid aquamarine;
+}
 .item-1 {
     background: url('https://picsum.photos/500/500?random=1');
     background-repeat: no-repeat;
