@@ -206,6 +206,8 @@ header {
     text-decoration: none;
     border-bottom: 2px solid #3C4D6D;
     color: #000000;
+    font-weight: 600;
+
 }
 
 .social-items a:hover {
