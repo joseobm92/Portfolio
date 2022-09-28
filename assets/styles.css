@@ -112,11 +112,19 @@ header {
     background-position: center;
 }
 
+.item-1:hover {
+    border: 3px solid aquamarine;
+}
+
 .item-2 {
     background: url('https://picsum.photos/500/500?random=2');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.item-2:hover {
+    border: 3px solid aquamarine;
 }
 
 .item-3 {
@@ -125,11 +133,20 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+.item-3:hover {
+    border: 3px solid aquamarine;
+}
+
 .item-4 {
     background: url('https://picsum.photos/500/500?random=4');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.item-4:hover {
+    border: 3px solid aquamarine;
 }
 
 .col-8 {
@@ -189,6 +206,10 @@ header {
     text-decoration: none;
     border-bottom: 2px solid #3C4D6D;
     color: #000000;
+}
+
+.social-items a:hover {
+    font-size:130%;
 }
 
 /* Media Queries */
