@@ -41,9 +41,19 @@ header {
 
 
 .logo-container {
+    display: flex;
     background-color: #7CC7C7;
-    padding: 1px 15px;
+    padding: 1px 20px;
+    justify-content: space-between;
 }
+
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
 
 .links {
     display: flex;
@@ -92,12 +102,12 @@ header {
     position: relative
 }
 
-.bg-img {
+/* .bg-img { */
     /* background: url('https://picsum.photos/900/200?random=5'); */
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
-}
+/* } */
 
 .bg-img:hover {
     border: 3px solid aquamarine;
@@ -169,6 +179,8 @@ header {
     bottom: 15px;
     background-color: #7CC7C7;
     padding: 15px;
+    opacity:0.8;
+    border-radius:5px;
 }
 
 .grid-item-content span, .content span {
@@ -177,6 +189,7 @@ header {
 
 .grid-item-content p, .content p {
     margin-bottom: 0;
+    
 }
 
 .grid-items {
